@@ -51,7 +51,8 @@
 			Helvetica,
 			sans-serif;
 		color: #172033;
-		background: #ffffff;
+		background: #f5f7f8;
+		line-height: 1.5;
 	}
 
 	:global(*) {
@@ -85,14 +86,14 @@
 
 	.site-header {
 		border-bottom: 1px solid #d9e0e6;
-		background: #ffffff;
+		background: rgba(255, 255, 255, 0.96);
 	}
 
 	.site-header__inner {
 		display: flex;
-		max-width: 72rem;
+		max-width: 76rem;
 		margin: 0 auto;
-		padding: 1rem;
+		padding: 0.9rem 1rem;
 		align-items: center;
 		justify-content: space-between;
 		gap: 1.25rem;
@@ -105,6 +106,7 @@
 		color: inherit;
 		font-weight: 700;
 		line-height: 1.1;
+		min-width: max-content;
 		text-decoration: none;
 	}
 
@@ -119,12 +121,13 @@
 		flex-wrap: wrap;
 		gap: 0.35rem;
 		align-items: center;
+		justify-content: flex-end;
 	}
 
 	nav a {
 		border-radius: 0.25rem;
 		color: #2c4054;
-		padding: 0.45rem 0.55rem;
+		padding: 0.5rem 0.65rem;
 		font-size: 0.94rem;
 		text-decoration: none;
 	}
@@ -136,15 +139,15 @@
 	}
 
 	main {
-		max-width: 72rem;
+		max-width: 76rem;
 		min-height: 65vh;
 		margin: 0 auto;
-		padding: 3rem 1rem;
+		padding: clamp(1.25rem, 4vw, 3rem) 1rem 3rem;
 	}
 
 	.site-footer {
 		border-top: 1px solid #d9e0e6;
-		max-width: 72rem;
+		max-width: 76rem;
 		margin: 0 auto;
 		padding: 1.5rem 1rem 2rem;
 	}
@@ -230,6 +233,10 @@
 		.site-header__inner {
 			align-items: flex-start;
 			flex-direction: column;
+		}
+
+		nav {
+			justify-content: flex-start;
 		}
 
 		main {

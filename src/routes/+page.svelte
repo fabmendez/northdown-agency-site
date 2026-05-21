@@ -1,27 +1,43 @@
-<article class="page-shell">
-	<header class="page-hero">
-		<p class="page-label">Northdown Computers - Operational Systems Engineering</p>
-		<h1>Your Business Should Get Easier To Run As It Grows.</h1>
-		<p>
-			Capture knowledge. Reduce repetition. Install systems that help businesses scale without
-			operational drag.
-		</p>
-		<p>
-			Northdown builds operational systems that reduce friction, improve consistency, and help
-			businesses scale without operational drag.
-		</p>
-		<p>
-			<a href="/contact">Book Discovery</a> <a href="/services">See Systems</a>
-		</p>
+<article class="home-page">
+	<header class="home-hero">
+		<div class="home-hero__content">
+			<p class="page-label">Northdown Computers - Operational Systems Engineering</p>
+			<h1>Your Business Should Get Easier To Run As It Grows.</h1>
+			<p class="hero-lede">
+				Capture knowledge. Reduce repetition. Install systems that help businesses scale without
+				operational drag.
+			</p>
+			<p>
+				Northdown builds operational systems that reduce friction, improve consistency, and help
+				businesses scale without operational drag.
+			</p>
+			<div class="button-row" aria-label="Primary actions">
+				<a class="button button-primary" href="/contact">Book Discovery</a>
+				<a class="button button-secondary" href="/services">See Systems</a>
+			</div>
+		</div>
+
+		<aside class="hero-panel" aria-labelledby="hero-model-heading">
+			<p class="panel-label">Operating model</p>
+			<h2 id="hero-model-heading">Capture, structure, automate, retain knowledge, scale capability.</h2>
+			<ol>
+				<li>Capture</li>
+				<li>Structure</li>
+				<li>Automate</li>
+				<li>Retain knowledge</li>
+				<li>Scale capability</li>
+			</ol>
+		</aside>
 	</header>
 
-	<section class="content-section" aria-labelledby="growth-heading">
+	<section class="home-section problem-section" aria-labelledby="growth-heading">
 		<div class="section-heading">
+			<p class="section-kicker">Recognition</p>
 			<h2 id="growth-heading">Growth feels heavier instead of easier.</h2>
 			<p>Operational friction compounds when systems do not keep pace with the business.</p>
 		</div>
 
-		<ul class="section-list">
+		<ul class="card-grid problem-grid">
 			<li>Leads rely on memory.</li>
 			<li>Processes live in inboxes.</li>
 			<li>Operations become reactive.</li>
@@ -32,28 +48,30 @@
 		</ul>
 	</section>
 
-	<section class="content-section" aria-labelledby="model-heading">
+	<section class="home-section model-section" aria-labelledby="model-heading">
 		<div class="section-heading">
+			<p class="section-kicker">Method</p>
 			<h2 id="model-heading">Northdown operational model</h2>
 			<p>Capture, structure, automate, retain knowledge, and scale capability.</p>
 		</div>
 
-		<ol class="section-list">
-			<li>Capture</li>
-			<li>Structure</li>
-			<li>Automate</li>
-			<li>Retain knowledge</li>
-			<li>Scale capability</li>
+		<ol class="step-list">
+			<li><span>Capture</span></li>
+			<li><span>Structure</span></li>
+			<li><span>Automate</span></li>
+			<li><span>Retain knowledge</span></li>
+			<li><span>Scale capability</span></li>
 		</ol>
 	</section>
 
-	<section class="content-section" aria-labelledby="systems-heading">
+	<section class="home-section systems-section" aria-labelledby="systems-heading">
 		<div class="section-heading">
+			<p class="section-kicker">Leverage</p>
 			<h2 id="systems-heading">Systems create operational leverage.</h2>
 			<p>Better systems often outperform bigger teams.</p>
 		</div>
 
-		<ul class="section-list">
+		<ul class="card-grid systems-grid">
 			<li>Every workflow becomes an asset.</li>
 			<li>Every process becomes repeatable.</li>
 			<li>Every improvement compounds.</li>
@@ -62,8 +80,9 @@
 		</ul>
 	</section>
 
-	<section class="content-section" aria-labelledby="services-heading">
+	<section class="home-section services-section" aria-labelledby="services-heading">
 		<div class="section-heading">
+			<p class="section-kicker">Services</p>
 			<h2 id="services-heading">What Northdown builds</h2>
 			<p>
 				Operational capability using systems, automation, knowledge, infrastructure, and AI where
@@ -71,7 +90,7 @@
 			</p>
 		</div>
 
-		<ul class="section-list">
+		<ul class="service-grid">
 			<li>Operational AI Systems</li>
 			<li>Workflow Automation</li>
 			<li>Knowledge Systems</li>
@@ -79,8 +98,9 @@
 		</ul>
 	</section>
 
-	<section class="content-section" aria-labelledby="trust-heading">
+	<section class="home-section trust-section" aria-labelledby="trust-heading">
 		<div class="section-heading">
+			<p class="section-kicker">Trust</p>
 			<h2 id="trust-heading">Built with operating discipline.</h2>
 			<p>
 				Northdown is not an AI agency, AI consultancy, generic automation company, or prompt
@@ -88,7 +108,7 @@
 			</p>
 		</div>
 
-		<ul class="section-list">
+		<ul class="trust-list">
 			<li>Governance</li>
 			<li>Knowledge retention</li>
 			<li>Operational systems</li>
@@ -97,14 +117,331 @@
 		</ul>
 	</section>
 
-	<section class="content-section" aria-labelledby="cta-heading">
-		<div class="section-heading">
+	<section class="home-cta" aria-labelledby="cta-heading">
+		<div>
+			<p class="section-kicker">Next step</p>
 			<h2 id="cta-heading">Build Operational Leverage.</h2>
 			<p>Start with discovery before implementation decisions are made.</p>
 		</div>
 
-		<p>
-			<a href="/contact">Book Discovery</a> <a href="/services">See Systems</a>
-		</p>
+		<div class="button-row" aria-label="Conversion actions">
+			<a class="button button-primary" href="/contact">Book Discovery</a>
+			<a class="button button-secondary" href="/services">See Systems</a>
+		</div>
 	</section>
 </article>
+
+<style>
+	.home-page {
+		display: grid;
+		gap: 1.25rem;
+	}
+
+	.home-hero {
+		border: 1px solid #d8e0e7;
+		border-radius: 8px;
+		background: linear-gradient(135deg, #ffffff 0%, #f6f8f6 62%, #edf4f1 100%);
+		display: grid;
+		grid-template-columns: minmax(0, 1.6fr) minmax(18rem, 0.75fr);
+		gap: 2rem;
+		padding: clamp(1.5rem, 5vw, 3.5rem);
+	}
+
+	.home-hero__content {
+		max-width: 48rem;
+	}
+
+	.home-hero h1 {
+		max-width: 12ch;
+		margin-bottom: 1.25rem;
+		color: #111827;
+	}
+
+	.hero-lede {
+		max-width: 43rem;
+		color: #213044;
+		font-size: 1.16rem;
+		line-height: 1.7;
+	}
+
+	.home-hero p:not(.page-label),
+	.home-cta p,
+	.section-heading p {
+		max-width: 42rem;
+	}
+
+	.button-row {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.75rem;
+		margin-top: 1.5rem;
+	}
+
+	.button {
+		align-items: center;
+		border: 1px solid transparent;
+		border-radius: 6px;
+		display: inline-flex;
+		font-weight: 700;
+		justify-content: center;
+		min-height: 2.75rem;
+		padding: 0.72rem 1rem;
+		text-decoration: none;
+		transition:
+			background-color 120ms ease,
+			border-color 120ms ease,
+			color 120ms ease;
+	}
+
+	.button-primary {
+		background: #18324a;
+		color: #ffffff;
+	}
+
+	.button-primary:hover {
+		background: #0f2437;
+	}
+
+	.button-secondary {
+		background: #ffffff;
+		border-color: #b9c7d3;
+		color: #18324a;
+	}
+
+	.button-secondary:hover {
+		background: #eef4f7;
+		border-color: #8fa4b6;
+	}
+
+	.hero-panel {
+		align-self: stretch;
+		border: 1px solid #cfd9df;
+		border-radius: 8px;
+		background: rgba(255, 255, 255, 0.78);
+		box-shadow: 0 18px 42px rgba(20, 33, 49, 0.08);
+		display: flex;
+		flex-direction: column;
+		gap: 1.25rem;
+		justify-content: space-between;
+		padding: 1.25rem;
+	}
+
+	.panel-label,
+	.section-kicker {
+		color: #5e6a57;
+		font-size: 0.78rem;
+		font-weight: 800;
+		letter-spacing: 0.08em;
+		margin: 0 0 0.55rem;
+		text-transform: uppercase;
+	}
+
+	.hero-panel h2 {
+		font-size: 1.05rem;
+		line-height: 1.35;
+		margin: 0;
+	}
+
+	.hero-panel ol {
+		border-top: 1px solid #d8e0e7;
+		counter-reset: hero-steps;
+		display: grid;
+		gap: 0.55rem;
+		list-style: none;
+		margin: 0;
+		padding: 1rem 0 0;
+	}
+
+	.hero-panel li {
+		align-items: center;
+		color: #26374a;
+		counter-increment: hero-steps;
+		display: flex;
+		gap: 0.75rem;
+	}
+
+	.hero-panel li::before {
+		align-items: center;
+		background: #e6eee8;
+		border: 1px solid #cad8ce;
+		border-radius: 999px;
+		color: #243b2f;
+		content: counter(hero-steps);
+		display: inline-flex;
+		flex: 0 0 1.8rem;
+		font-size: 0.78rem;
+		font-weight: 800;
+		height: 1.8rem;
+		justify-content: center;
+	}
+
+	.home-section {
+		border: 1px solid #d8e0e7;
+		border-radius: 8px;
+		background: #ffffff;
+		display: grid;
+		grid-template-columns: minmax(14rem, 19rem) minmax(0, 1fr);
+		gap: clamp(1.25rem, 3vw, 2rem);
+		padding: clamp(1.25rem, 3vw, 2rem);
+	}
+
+	.section-heading h2 {
+		color: #111827;
+		font-size: clamp(1.35rem, 2vw, 1.8rem);
+		line-height: 1.18;
+		margin-bottom: 0.75rem;
+	}
+
+	.card-grid,
+	.service-grid,
+	.trust-list,
+	.step-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.card-grid,
+	.service-grid {
+		display: grid;
+		gap: 0.85rem;
+		grid-template-columns: repeat(auto-fit, minmax(13.5rem, 1fr));
+	}
+
+	.card-grid li,
+	.service-grid li {
+		border: 1px solid #dbe3e8;
+		border-radius: 8px;
+		background: #f9fbfc;
+		color: #223247;
+		line-height: 1.5;
+		min-height: 5rem;
+		padding: 1rem;
+	}
+
+	.problem-grid li {
+		background: #fbfcfb;
+	}
+
+	.systems-grid li {
+		background: #f8faf8;
+	}
+
+	.step-list {
+		counter-reset: process;
+		display: grid;
+		gap: 0.75rem;
+		grid-template-columns: repeat(5, minmax(0, 1fr));
+	}
+
+	.step-list li {
+		border: 1px solid #d7e0e5;
+		border-radius: 8px;
+		background: #fbfcfd;
+		counter-increment: process;
+		min-height: 7rem;
+		padding: 1rem;
+		position: relative;
+	}
+
+	.step-list li::before {
+		color: #5e6a57;
+		content: '0' counter(process);
+		display: block;
+		font-size: 0.78rem;
+		font-weight: 800;
+		margin-bottom: 1.5rem;
+	}
+
+	.step-list span {
+		color: #152236;
+		font-weight: 800;
+		line-height: 1.35;
+	}
+
+	.trust-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.75rem;
+	}
+
+	.trust-list li {
+		border: 1px solid #d6dfd8;
+		border-radius: 999px;
+		background: #f6faf7;
+		color: #243b2f;
+		font-size: 0.95rem;
+		font-weight: 700;
+		padding: 0.55rem 0.8rem;
+	}
+
+	.home-cta {
+		align-items: center;
+		border: 1px solid #cbd8e2;
+		border-radius: 8px;
+		background: #18324a;
+		color: #ffffff;
+		display: flex;
+		gap: 1.5rem;
+		justify-content: space-between;
+		padding: clamp(1.25rem, 3vw, 2rem);
+	}
+
+	.home-cta h2,
+	.home-cta p,
+	.home-cta .section-kicker {
+		color: #ffffff;
+	}
+
+	.home-cta .button-row {
+		flex: 0 0 auto;
+		margin-top: 0;
+	}
+
+	.home-cta .button-primary {
+		background: #ffffff;
+		color: #18324a;
+	}
+
+	.home-cta .button-secondary {
+		background: transparent;
+		border-color: rgba(255, 255, 255, 0.5);
+		color: #ffffff;
+	}
+
+	.home-cta .button-secondary:hover {
+		background: rgba(255, 255, 255, 0.12);
+	}
+
+	@media (max-width: 920px) {
+		.home-hero,
+		.home-section {
+			grid-template-columns: 1fr;
+		}
+
+		.step-list {
+			grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+		}
+
+		.home-cta {
+			align-items: flex-start;
+			flex-direction: column;
+		}
+	}
+
+	@media (max-width: 560px) {
+		.home-hero,
+		.home-section,
+		.home-cta {
+			border-left: 0;
+			border-right: 0;
+			border-radius: 0;
+			margin-left: -1rem;
+			margin-right: -1rem;
+		}
+
+		.button {
+			width: 100%;
+		}
+	}
+</style>
