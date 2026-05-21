@@ -10,18 +10,26 @@ export const navItems = [
 
 export const pages = {
 	home: {
-		title: 'Home',
-		description: 'Placeholder structure for the approved Home route.',
-		primaryAction: 'Start a discovery conversation',
+		title: 'Your Business Should Get Easier To Run As It Grows.',
+		description:
+			'Capture knowledge. Reduce repetition. Install systems that help businesses scale without operational drag.',
+		primaryAction: 'Book Discovery',
 		sections: [
-			'Business identity and offer summary',
-			'Operational problems',
-			'Service overview',
-			'Process summary',
-			'Trust and safety principles',
-			'Contact path'
+			'Hero: Operational Systems Engineering positioning',
+			'Recognition: growth feels heavier instead of easier',
+			'Core problems: repetition, bottlenecks, undocumented processes, trapped knowledge, inconsistent delivery',
+			'Northdown operational model: Capture -> Structure -> Automate -> Retain knowledge -> Scale capability',
+			'Supporting concepts: every workflow becomes an asset; every process becomes repeatable; every improvement compounds',
+			'Services: Operational AI Systems, Workflow Automation, Knowledge Systems, Operational Infrastructure',
+			'Conversion layer: missing systems compound problems; better systems often outperform bigger teams',
+			'Trust direction: governance, knowledge retention, validation discipline, institutional capability',
+			'CTA: Build Operational Leverage (Book Discovery / See Systems)'
 		],
-		notes: ['Source: project-brain/14-website/PAGE_REQUIREMENTS.md']
+		notes: [
+			'Category: Operational Systems Engineering',
+			'Guardrails: no invented proof, metrics, or case studies; avoid hype language',
+			'Sources: project-brain/14-website/PAGE_REQUIREMENTS.md, project-brain/13-brand/POSITIONING_STATEMENT.md, project-brain/11-product/SERVICE_CATALOG.md'
+		]
 	},
 	services: {
 		title: 'Services',
