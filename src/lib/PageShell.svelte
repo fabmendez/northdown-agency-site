@@ -8,7 +8,7 @@
 
 <article class="page-shell">
 	<header class="page-hero">
-		<p class="page-label">Northdown Computers AI Systems & Automation</p>
+		<p class="page-label">Northdown Computers — Operational Systems Engineering</p>
 		<h1>{title}</h1>
 		<p>{description}</p>
 	</header>

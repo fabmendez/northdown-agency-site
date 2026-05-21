@@ -4,10 +4,10 @@
 </script>
 
 <svelte:head>
-	<title>Northdown Computers AI Systems & Automation</title>
+	<title>Northdown Computers — Operational Systems Engineering</title>
 	<meta
 		name="description"
-		content="Planning scaffold for the Northdown Computers AI Systems & Automation website."
+		content="Northdown builds operational systems that reduce friction, improve consistency, and help businesses scale without operational drag."
 	/>
 </svelte:head>
 
@@ -17,7 +17,7 @@
 	<div class="site-header__inner">
 		<a class="brand" href="/" aria-label="Northdown home">
 			<span>Northdown Computers</span>
-			<small>AI Systems & Automation</small>
+			<small>Operational Systems Engineering</small>
 		</a>
 
 		<nav aria-label="Primary navigation">
@@ -35,7 +35,7 @@
 </main>
 
 <footer class="site-footer">
-	<p>Northdown Computers AI Systems & Automation</p>
+	<p>Northdown Computers — Operational Systems Engineering</p>
 	<nav aria-label="Footer navigation">
 		{#each navItems as item}
 			<a href={item.href}>{item.label}</a>
