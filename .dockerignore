@@ -1,0 +1,16 @@
+node_modules
+.svelte-kit
+build
+.git
+.gitignore
+Dockerfile
+.dockerignore
+npm-debug.log*
+README.md
+project-brain
+docs
+tasks
+validation
+source-map
+external_refs
+skills

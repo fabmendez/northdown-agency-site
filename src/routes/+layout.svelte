@@ -1,0 +1,243 @@
+<script>
+	import { page } from '$app/state';
+	import { navItems } from '$lib/siteStructure.js';
+</script>
+
+<svelte:head>
+	<title>Northdown Computers AI Systems & Automation</title>
+	<meta
+		name="description"
+		content="Planning scaffold for the Northdown Computers AI Systems & Automation website."
+	/>
+</svelte:head>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header class="site-header">
+	<div class="site-header__inner">
+		<a class="brand" href="/" aria-label="Northdown home">
+			<span>Northdown Computers</span>
+			<small>AI Systems & Automation</small>
+		</a>
+
+		<nav aria-label="Primary navigation">
+			{#each navItems as item}
+				<a href={item.href} aria-current={page.url.pathname === item.href ? 'page' : undefined}>
+					{item.label}
+				</a>
+			{/each}
+		</nav>
+	</div>
+</header>
+
+<main id="main-content">
+	<slot />
+</main>
+
+<footer class="site-footer">
+	<p>Northdown Computers AI Systems & Automation</p>
+	<nav aria-label="Footer navigation">
+		{#each navItems as item}
+			<a href={item.href}>{item.label}</a>
+		{/each}
+	</nav>
+</footer>
+
+<style>
+	:global(body) {
+		margin: 0;
+		font-family:
+			Arial,
+			Helvetica,
+			sans-serif;
+		color: #172033;
+		background: #ffffff;
+	}
+
+	:global(*) {
+		box-sizing: border-box;
+	}
+
+	:global(a) {
+		color: #245276;
+	}
+
+	:global(a:focus-visible) {
+		outline: 3px solid #7aa7c7;
+		outline-offset: 3px;
+	}
+
+	.skip-link {
+		position: absolute;
+		left: 1rem;
+		top: 1rem;
+		z-index: 10;
+		transform: translateY(-150%);
+		background: #172033;
+		color: #ffffff;
+		padding: 0.5rem 0.75rem;
+		text-decoration: none;
+	}
+
+	.skip-link:focus {
+		transform: translateY(0);
+	}
+
+	.site-header {
+		border-bottom: 1px solid #d9e0e6;
+		background: #ffffff;
+	}
+
+	.site-header__inner {
+		display: flex;
+		max-width: 72rem;
+		margin: 0 auto;
+		padding: 1rem;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1.25rem;
+	}
+
+	.brand {
+		display: inline-flex;
+		flex-direction: column;
+		gap: 0.15rem;
+		color: inherit;
+		font-weight: 700;
+		line-height: 1.1;
+		text-decoration: none;
+	}
+
+	.brand small {
+		color: #5d6a77;
+		font-size: 0.78rem;
+		font-weight: 600;
+	}
+
+	nav {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.35rem;
+		align-items: center;
+	}
+
+	nav a {
+		border-radius: 0.25rem;
+		color: #2c4054;
+		padding: 0.45rem 0.55rem;
+		font-size: 0.94rem;
+		text-decoration: none;
+	}
+
+	nav a:hover,
+	nav a[aria-current='page'] {
+		background: #edf3f7;
+		color: #172033;
+	}
+
+	main {
+		max-width: 72rem;
+		min-height: 65vh;
+		margin: 0 auto;
+		padding: 3rem 1rem;
+	}
+
+	.site-footer {
+		border-top: 1px solid #d9e0e6;
+		max-width: 72rem;
+		margin: 0 auto;
+		padding: 1.5rem 1rem 2rem;
+	}
+
+	.site-footer p {
+		margin: 0 0 0.75rem;
+		color: #5d6a77;
+		font-size: 0.92rem;
+	}
+
+	:global(.page-shell) {
+		display: grid;
+		gap: 2rem;
+	}
+
+	:global(.page-hero) {
+		max-width: 46rem;
+	}
+
+	:global(.page-label) {
+		margin: 0 0 0.75rem;
+		color: #5d6a77;
+		font-size: 0.9rem;
+		font-weight: 700;
+	}
+
+	:global(h1),
+	:global(h2),
+	:global(p) {
+		letter-spacing: 0;
+	}
+
+	:global(h1) {
+		margin: 0 0 1rem;
+		font-size: clamp(2rem, 6vw, 3.75rem);
+		line-height: 1.05;
+	}
+
+	:global(h2) {
+		margin: 0 0 0.5rem;
+		font-size: 1.2rem;
+		line-height: 1.25;
+	}
+
+	:global(p) {
+		margin: 0;
+		color: #4c5b68;
+		line-height: 1.65;
+	}
+
+	:global(.content-section) {
+		border-top: 1px solid #d9e0e6;
+		display: grid;
+		grid-template-columns: minmax(12rem, 18rem) 1fr;
+		gap: 1.5rem;
+		padding-top: 1.5rem;
+	}
+
+	:global(.section-heading) {
+		max-width: 24rem;
+	}
+
+	:global(.section-list),
+	:global(.note-list) {
+		margin: 0;
+		padding-left: 1.25rem;
+		color: #2c4054;
+		line-height: 1.65;
+	}
+
+	:global(.section-list) {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+		gap: 0.75rem 1.5rem;
+	}
+
+	:global(.section-list li),
+	:global(.note-list li) {
+		padding-left: 0.25rem;
+	}
+
+	@media (max-width: 760px) {
+		.site-header__inner {
+			align-items: flex-start;
+			flex-direction: column;
+		}
+
+		main {
+			padding-top: 2rem;
+		}
+
+		:global(.content-section) {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>
