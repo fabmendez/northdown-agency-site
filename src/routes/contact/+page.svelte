@@ -7,8 +7,9 @@
 			grows, Northdown can help you identify where better systems would create leverage.
 		</p>
 		<div class="button-row" aria-label="Contact actions">
-			<a class="button button-primary" href="tel:+442037730511">Call 020-3773 0511</a>
-			<a class="button button-secondary-light" href="/privacy">Review Privacy Notes</a>
+			<a class="button button-primary" href="#contact-action">Request Operational Review</a>
+			<a class="button button-secondary-light" href="tel:+442037730511">Call 020-3773 0511</a>
+			<a class="button button-tertiary-light" href="/privacy">Review Privacy Notes</a>
 		</div>
 	</header>
 
@@ -72,17 +73,17 @@
 	<section class="contact-action" aria-labelledby="action-heading">
 		<div>
 			<p class="section-kicker">Contact action</p>
-			<h2 id="action-heading">Book Discovery</h2>
+			<h2 id="action-heading">Request Operational Review</h2>
 			<p>
-				Call <a href="tel:+442037730511">020-3773 0511</a> to start a discovery or operational
-				review conversation. Use the call to explain the workflow problem, current constraints,
-				and what would make the business easier to run.
+				A fuller contact or booking flow is planned. For now, use the available contact options
+				below. For direct enquiries, call <a href="tel:+442037730511">020-3773 0511</a>.
 			</p>
 		</div>
 
 		<div class="button-row" aria-label="Discovery actions">
-			<a class="button button-primary-inverse" href="tel:+442037730511">Call 020-3773 0511</a>
-			<a class="button button-secondary" href="/privacy">Review Privacy Notes</a>
+			<a class="button button-primary-inverse" href="#contact-action">Request Operational Review</a>
+			<a class="button button-secondary" href="tel:+442037730511">Call 020-3773 0511</a>
+			<a class="button button-tertiary" href="/privacy">Review Privacy Notes</a>
 		</div>
 	</section>
 </article>
@@ -276,6 +277,17 @@
 		border-color: #8fa4b6;
 	}
 
+	.button-tertiary-light {
+		background: transparent;
+		border-color: transparent;
+		color: #245276;
+	}
+
+	.button-tertiary-light:hover {
+		background: #eef4f7;
+		color: #18324a;
+	}
+
 	.button-secondary {
 		background: transparent;
 		border-color: rgba(255, 255, 255, 0.5);
@@ -283,6 +295,16 @@
 	}
 
 	.button-secondary:hover {
+		background: rgba(255, 255, 255, 0.12);
+	}
+
+	.button-tertiary {
+		background: transparent;
+		border-color: transparent;
+		color: #ffffff;
+	}
+
+	.button-tertiary:hover {
 		background: rgba(255, 255, 255, 0.12);
 	}
 

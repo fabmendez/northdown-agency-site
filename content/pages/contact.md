@@ -10,7 +10,9 @@ Operational Systems Engineering
 
 If your business is repeating work, losing knowledge, or becoming harder to run as it grows, Northdown can help you identify where better systems would create leverage.
 
-Call 020-3773 0511 to start a discovery or operational review conversation.
+Request Operational Review.
+
+For direct enquiries, call 020-3773 0511.
 
 ## Good Reasons To Get In Touch
 
@@ -38,10 +40,10 @@ Call 020-3773 0511 to start a discovery or operational review conversation.
 
 ## Contact Action
 
-### Book Discovery
+### Request Operational Review
 
-Call 020-3773 0511 to start a discovery or operational review conversation.
+A fuller contact or booking flow is planned. For now, use the available contact options below.
 
-Use the call to explain the workflow problem, current constraints, and what would make the business easier to run.
+For direct enquiries, call 020-3773 0511.
 
 Review Privacy Notes.
