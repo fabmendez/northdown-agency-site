@@ -25,11 +25,12 @@ CTA styling is mostly consistent, but the site does not yet use CTAs as a clear 
 
 - Standardise primary CTA language around `Request Operational Review` for the contact path.
 - Use `Book Discovery` where the surrounding page is already framing a discovery conversation.
+- Use the approved public email address as the primary functional contact method: `hello@northdowncomputers.com`.
 - Use the approved public discovery phone number as a secondary/supporting action: `020-3773 0511`.
 - Use secondary CTAs to route visitors to the next best page: `See Services`, `See Process`, or `Review Privacy Notes`.
 - Add short CTA support copy that explains what the action is for.
 - Keep CTA blocks visually intentional and consistent across pages.
-- Do not imply a working contact form or backend submission path.
+- Do not imply a working contact form, backend submission path, or booking system.
 
 ### Implementation timing
 
@@ -212,19 +213,21 @@ The visitor is close to taking action and needs to know what discovery is for, w
   - decide whether an audit or proposal is appropriate
 - Add a concise "good enquiry includes" section based on the intake template.
 - Keep privacy/access warnings plain and visible.
-- Do not imply a working form, response-time guarantee, CRM, email route, or automation.
+- Do not imply a working form, response-time guarantee, CRM, booking system, or automation.
 
 ### Recommended CTA improvement
 
 - Primary CTA block headline: `Request Operational Review`.
-- Approved public discovery contact method: `020-3773 0511`.
-- Primary visual CTA: `Request Operational Review`.
+- Approved public email contact method: `hello@northdowncomputers.com`.
+- Approved public discovery phone number: `020-3773 0511`.
+- Primary visual CTA: `Request Operational Review` by email.
 - Secondary CTA: `Call 020-3773 0511`.
+- Future CTA mechanism: form or booking flow, only if separately approved.
 - Supporting link/button: `Review Privacy Notes`.
 - Keep phone positioned as a direct enquiry option, not the main conversion action.
-- Include honest implementation copy: `A fuller contact or booking flow is planned. For now, use the available contact options below.`
+- Include honest implementation copy that a fuller contact or booking flow may be added later.
 - Contact no longer needs `Contact method pending final configuration` placeholder language.
-- Do not add or imply a working contact form, booking system, CRM, email route, response-time promise, or automation.
+- Do not add or imply a working contact form, booking system, CRM, response-time promise, or automation.
 
 ### Implementation timing
 
@@ -281,8 +284,10 @@ For each implementation slice:
 ## Assumptions
 
 - The current page content is valid first-pass public content, but it needs stronger buyer-facing flow.
-- The approved current public discovery contact method is phone: `020-3773 0511`.
-- Phone is secondary/supporting to `Request Operational Review` in the CTA hierarchy.
+- The approved public email address is `hello@northdowncomputers.com`.
+- The approved public discovery phone number is `020-3773 0511`.
+- `Request Operational Review` is primary and should use email until a form or booking flow is approved.
+- Phone is secondary/supporting in the CTA hierarchy.
 - The contact form backend remains unimplemented.
 - No proof assets, case studies, testimonials, pricing, or metrics are approved yet.
 - Future implementation should preserve the current visual restraint while improving hierarchy, section order, and CTA clarity.

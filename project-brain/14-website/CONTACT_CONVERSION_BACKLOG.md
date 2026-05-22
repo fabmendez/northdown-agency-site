@@ -2,20 +2,21 @@
 
 ## Purpose
 
-This backlog item records the gap between the current Contact page CTA language and the future conversion mechanism needed to make `Request Operational Review` fully actionable.
+This backlog item records the current Contact page conversion path and the remaining decisions needed if Northdown later adds a fuller form, booking, or intake system.
 
-This is a planning document only. It does not approve a contact form, booking system, backend route, email address, Sipgate configuration, dependency, deployment change, or automation.
+This is a planning document only. It does not approve a contact form, booking system, backend route, Sipgate configuration, dependency, deployment change, or automation.
 
 ## Current State
 
 - The Contact page has an approved public phone number: `020-3773 0511`.
+- The Contact page has an approved public email address: `hello@northdowncomputers.com`.
+- `Request Operational Review` now has an immediate functional path through a `mailto:` link.
 - Phone is a live contact method.
 - Phone is positioned as a secondary/supporting contact option.
 - No contact form exists yet.
 - No booking system exists yet.
-- No public email address has been approved yet.
-- `Request Operational Review` is the intended primary CTA, but it is currently a CTA concept rather than a complete conversion mechanism.
-- The current Contact page copy is honest that a fuller contact or booking flow is planned.
+- The immediate conversion gap is partially resolved by approved public email.
+- The current Contact page copy is honest that a fuller contact or booking flow may be added later.
 
 ## Desired Future State
 
@@ -24,10 +25,11 @@ This is a planning document only. It does not approve a contact form, booking sy
 - Phone remains secondary/supporting for direct enquiries.
 - The contact path aligns with privacy, governance, validation, and data-handling requirements.
 - The Contact page makes the next step clear without implying unimplemented systems.
+- A future form, booking, or intake system can improve conversion once separately approved.
 
 ## Options To Decide
 
-- Add an approved public email address with a `mailto:` link.
+- Keep the approved public email address with a `mailto:` link.
 - Add a simple contact form.
 - Add a booking link or booking system.
 - Add a Sipgate voice intake flow.
@@ -35,7 +37,6 @@ This is a planning document only. It does not approve a contact form, booking sy
 
 ## Required Decisions
 
-- Approved public email address, if email is used.
 - Whether to implement form-to-email.
 - Whether to use an external form provider or a site backend.
 - Spam protection approach.
@@ -47,28 +48,28 @@ This is a planning document only. It does not approve a contact form, booking sy
 
 ## Interim Website Behavior
 
-- Keep `Request Operational Review` language as the primary CTA concept.
-- Make clear that the full contact or booking flow is planned but not implemented.
-- Use phone as the currently approved live method: `020-3773 0511`.
+- Keep `Request Operational Review` as the primary CTA.
+- Use the approved public email address as the current primary functional path: `hello@northdowncomputers.com`.
+- Make clear that a fuller contact or booking flow may be added later.
+- Use phone as the approved secondary live method: `020-3773 0511`.
 - Keep phone secondary/supporting, not the only intended conversion path.
-- Do not imply a working form, booking system, email route, CRM, automation, or response-time promise exists.
+- Do not imply a working form, booking system, CRM, automation, or response-time promise exists.
 
 ## Recommended Next Implementation Slice
 
-1. Decide and approve the contact mechanism.
-2. Update privacy wording for the approved mechanism before launch if data collection changes.
-3. Implement the smallest functional path for `Request Operational Review`.
-4. Update the Contact page CTA so the primary action is functional.
+1. Decide whether email-only is sufficient for the next public version.
+2. If not, approve form-to-email, booking, or Sipgate-supported intake as a separate mechanism.
+3. Update privacy wording before any new data collection or recording goes live.
+4. Implement the smallest approved improvement to the `Request Operational Review` path.
 5. Validate build, check, route behavior, and Contact page content.
 
 ## Recommended Next Decision
 
-Approve the first functional contact mechanism:
+Approve whether the current `mailto:` path is enough for launch, or choose the next conversion mechanism:
 
-- public email link,
 - simple form-to-email,
 - booking system,
 - Sipgate-supported intake,
 - or a staged combination.
 
-The lowest-complexity next step is to approve a public email address or simple form-to-email path, then keep Sipgate voice intake as a separate later system unless phone intake becomes the primary business workflow.
+The lowest-complexity current path is the approved public email link. A simple form-to-email path is the most likely next improvement if Northdown wants lower-friction enquiry capture without adding a booking system or voice intake yet.

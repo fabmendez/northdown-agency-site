@@ -7,7 +7,11 @@
 			grows, Northdown can help you identify where better systems would create leverage.
 		</p>
 		<div class="button-row" aria-label="Contact actions">
-			<a class="button button-primary" href="#contact-action">Request Operational Review</a>
+			<a
+				class="button button-primary"
+				href="mailto:hello@northdowncomputers.com?subject=Operational%20Review%20Request&body=Hello%20Northdown%2C%0A%0AI%20would%20like%20to%20request%20an%20operational%20review.%0A%0ACurrent%20operational%20challenge%3A%0ABusiness%20%2F%20company%3A%0ABest%20contact%20details%3A"
+				>Request Operational Review</a
+			>
 			<a class="button button-secondary-light" href="tel:+442037730511">Call 020-3773 0511</a>
 			<a class="button button-tertiary-light" href="/privacy">Review Privacy Notes</a>
 		</div>
@@ -75,13 +79,19 @@
 			<p class="section-kicker">Contact action</p>
 			<h2 id="action-heading">Request Operational Review</h2>
 			<p>
-				A fuller contact or booking flow is planned. For now, use the available contact options
-				below. For direct enquiries, call <a href="tel:+442037730511">020-3773 0511</a>.
+				You can request an operational review by emailing
+				<a href="mailto:hello@northdowncomputers.com">hello@northdowncomputers.com</a> or, for
+				direct enquiries, calling <a href="tel:+442037730511">020-3773 0511</a>. A fuller
+				contact or booking flow may be added later.
 			</p>
 		</div>
 
 		<div class="button-row" aria-label="Discovery actions">
-			<a class="button button-primary-inverse" href="#contact-action">Request Operational Review</a>
+			<a
+				class="button button-primary-inverse"
+				href="mailto:hello@northdowncomputers.com?subject=Operational%20Review%20Request&body=Hello%20Northdown%2C%0A%0AI%20would%20like%20to%20request%20an%20operational%20review.%0A%0ACurrent%20operational%20challenge%3A%0ABusiness%20%2F%20company%3A%0ABest%20contact%20details%3A"
+				>Request Operational Review</a
+			>
 			<a class="button button-secondary" href="tel:+442037730511">Call 020-3773 0511</a>
 			<a class="button button-tertiary" href="/privacy">Review Privacy Notes</a>
 		</div>
