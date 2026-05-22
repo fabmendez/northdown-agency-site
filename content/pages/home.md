@@ -1,6 +1,6 @@
 # Home
 
-## Category
+## Operational Systems Engineering
 
 Operational Systems Engineering
 
@@ -14,15 +14,9 @@ Northdown is not:
 - A generic automation company.
 - A prompt consultancy.
 
-## Hero
+## Your Business Should Get Easier To Run As It Grows.
 
-### Your Business Should Get Easier To Run As It Grows.
-
-Missed follow-ups.
-
-Repeated admin.
-
-Processes trapped in inboxes and people's heads.
+Missed follow-ups, repeated admin, and processes trapped in inboxes or people's heads quietly create operational drag.
 
 Northdown builds operational systems that reduce friction, improve consistency, and help businesses scale without operational drag.
 
@@ -32,9 +26,7 @@ Call 020-3773 0511.
 
 No sales pressure. We identify friction, bottlenecks, and opportunities to improve operational leverage.
 
-## Recognition
-
-### Growth Should Create Freedom. Not More Firefighting.
+## Growth Should Create Freedom. Not More Firefighting.
 
 Operational friction compounds when systems do not keep pace with the business.
 
@@ -50,7 +42,7 @@ The problem often isn't headcount.
 
 It's systems.
 
-## Northdown Operational Model
+## The Operating Mechanism
 
 1. Capture.
 2. Structure.
@@ -58,39 +50,39 @@ It's systems.
 4. Retain knowledge.
 5. Scale capability.
 
-## Buyer Objections
+## What This Is - And Is Not
 
 - More software doesn't automatically create better systems.
 - Operational drag starts early. Better systems compound.
 - Northdown doesn't start with AI. We start with operational problems.
 - Better systems should make businesses easier to run, not harder.
 
-## Services
+## What Northdown Builds
 
 ### Operational AI Systems
 
-Use AI where appropriate inside governed workflows with clear inputs, outputs, and review.
+AI-assisted workflows that support real business tasks with clear review points.
 
 ### Workflow Automation
 
-Reduce repeated manual work and operational friction across intake, handoffs, and follow-up.
+Less repeated admin, cleaner handoffs, and fewer manual follow-up loops.
 
 ### Knowledge Systems
 
-Turn operational knowledge into institutional capability teams can find, trust, and reuse.
+Processes, decisions, and context captured so the business is less dependent on memory.
 
 ### Operational Infrastructure
 
-Build the operating layer: governance, validation, permissions, and resilient delivery paths.
+Private, maintainable systems that support how the business actually runs.
 
-## Operating Principles
+## How Better Systems Compound
 
 - Every workflow should become an asset.
 - Every process should become repeatable.
 - Every improvement should compound.
 - Better systems often outperform bigger teams.
 
-## Trust Direction
+## Built With Operational Discipline
 
 - Structured delivery approach.
 - Governed implementation process.
@@ -98,9 +90,7 @@ Build the operating layer: governance, validation, permissions, and resilient de
 - Knowledge retention principles.
 - System-first operating model.
 
-## CTA
-
-### Build Operational Leverage.
+## Start With An Operational Review
 
 Request Operational Review.
 

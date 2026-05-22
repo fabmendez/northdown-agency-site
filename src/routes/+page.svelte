@@ -1,14 +1,15 @@
 <article class="home-page">
 	<header class="home-hero">
 		<div class="home-hero__content">
-			<p class="page-label">Northdown Computers - Operational Systems Engineering</p>
+			<p class="page-label">Operational Systems Engineering</p>
 			<h1>Your Business Should Get Easier To Run As It Grows.</h1>
 			<p class="category-line">
 				Operational Systems Engineering. Systems that reduce operational drag as your business
 				grows.
 			</p>
 			<p class="hero-lede">
-				Missed follow-ups. Repeated admin. Processes trapped in inboxes and people's heads.
+				Missed follow-ups, repeated admin, and processes trapped in inboxes or people's heads
+				quietly create operational drag.
 			</p>
 			<p>
 				Northdown builds operational systems that reduce friction, improve consistency, and help
@@ -43,7 +44,7 @@
 
 	<section class="home-section problem-section" aria-labelledby="growth-heading">
 		<div class="section-heading">
-			<p class="section-kicker">Recognition</p>
+			<p class="section-kicker">Operational drag</p>
 			<h2 id="growth-heading">Growth Should Create Freedom. Not More Firefighting.</h2>
 			<p>Operational friction compounds when systems do not keep pace with the business.</p>
 		</div>
@@ -63,8 +64,8 @@
 
 	<section class="home-section model-section" aria-labelledby="model-heading">
 		<div class="section-heading">
-			<p class="section-kicker">Method</p>
-			<h2 id="model-heading">Northdown operational model</h2>
+			<p class="section-kicker">Mechanism</p>
+			<h2 id="model-heading">How better systems start to compound</h2>
 			<p>
 				The mechanism is simple: understand the work, capture what matters, then improve the
 				system around it.
@@ -82,8 +83,8 @@
 
 	<section class="home-section systems-section" aria-labelledby="systems-heading">
 		<div class="section-heading">
-			<p class="section-kicker">Objections</p>
-			<h2 id="systems-heading">More tools do not automatically create better systems.</h2>
+			<p class="section-kicker">Common questions</p>
+			<h2 id="systems-heading">What This Is - And Is Not</h2>
 			<p>
 				Operational drag starts early. Better systems compound when they are designed around real
 				work instead of novelty.
@@ -100,7 +101,7 @@
 
 	<section class="home-section services-section" aria-labelledby="services-heading">
 		<div class="section-heading">
-			<p class="section-kicker">Services</p>
+			<p class="section-kicker">What improves</p>
 			<h2 id="services-heading">What Northdown builds</h2>
 			<p>
 				Operational capability using systems, automation, knowledge, infrastructure, and AI where
@@ -109,17 +110,29 @@
 		</div>
 
 		<ul class="service-grid">
-			<li>Operational AI Systems</li>
-			<li>Workflow Automation</li>
-			<li>Knowledge Systems</li>
-			<li>Operational Infrastructure</li>
+			<li>
+				<h3>Operational AI Systems</h3>
+				<p>AI-assisted workflows that support real business tasks with clear review points.</p>
+			</li>
+			<li>
+				<h3>Workflow Automation</h3>
+				<p>Less repeated admin, cleaner handoffs, and fewer manual follow-up loops.</p>
+			</li>
+			<li>
+				<h3>Knowledge Systems</h3>
+				<p>Processes, decisions, and context captured so the business is less dependent on memory.</p>
+			</li>
+			<li>
+				<h3>Operational Infrastructure</h3>
+				<p>Private, maintainable systems that support how the business actually runs.</p>
+			</li>
 		</ul>
 	</section>
 
 	<section class="home-section trust-section" aria-labelledby="trust-heading">
 		<div class="section-heading">
-			<p class="section-kicker">Trust</p>
-			<h2 id="trust-heading">Trust is built through process, not claims.</h2>
+			<p class="section-kicker">Delivery discipline</p>
+			<h2 id="trust-heading">Built With Operational Discipline</h2>
 			<p>
 				Northdown is not an AI agency, AI consultancy, generic automation company, or prompt
 				engineering company.
@@ -137,8 +150,8 @@
 
 	<section class="home-cta" aria-labelledby="cta-heading">
 		<div>
-			<p class="section-kicker">Next step</p>
-			<h2 id="cta-heading">Build Operational Leverage.</h2>
+			<p class="section-kicker">Start here</p>
+			<h2 id="cta-heading">Start With An Operational Review</h2>
 			<p>
 				Start with the friction, bottlenecks, and repeated work before implementation decisions
 				are made.
@@ -366,8 +379,19 @@
 		background: #f9fbfc;
 		color: #223247;
 		line-height: 1.5;
-		min-height: 5rem;
+		min-height: 6.5rem;
 		padding: 1rem;
+	}
+
+	.service-grid h3 {
+		color: #152236;
+		font-size: 1rem;
+		line-height: 1.25;
+		margin: 0 0 0.6rem;
+	}
+
+	.service-grid p {
+		margin: 0;
 	}
 
 	.problem-grid li {
