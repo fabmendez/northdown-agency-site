@@ -3,28 +3,39 @@
 		<div class="home-hero__content">
 			<p class="page-label">Northdown Computers - Operational Systems Engineering</p>
 			<h1>Your Business Should Get Easier To Run As It Grows.</h1>
+			<p class="category-line">
+				Operational Systems Engineering. Systems that reduce operational drag as your business
+				grows.
+			</p>
 			<p class="hero-lede">
-				Capture knowledge. Reduce repetition. Install systems that help businesses scale without
-				operational drag.
+				Missed follow-ups. Repeated admin. Processes trapped in inboxes and people's heads.
 			</p>
 			<p>
 				Northdown builds operational systems that reduce friction, improve consistency, and help
 				businesses scale without operational drag.
 			</p>
 			<div class="button-row" aria-label="Primary actions">
-				<a class="button button-primary" href="/contact">Book Discovery</a>
-				<a class="button button-secondary" href="/services">See Systems</a>
+				<a
+					class="button button-primary"
+					href="mailto:hello@northdowncomputers.com?subject=Operational%20Review%20Request&body=Hello%20Northdown%2C%0A%0AI%20would%20like%20to%20request%20an%20operational%20review.%0A%0ACurrent%20operational%20challenge%3A%0ABusiness%20%2F%20company%3A%0ABest%20contact%20details%3A"
+					>Request Operational Review</a
+				>
+				<a class="button button-secondary" href="tel:+442037730511">Call 020-3773 0511</a>
 			</div>
+			<p class="cta-note">
+				No sales pressure. We identify friction, bottlenecks, and opportunities to improve
+				operational leverage.
+			</p>
 		</div>
 
 		<aside class="hero-panel" aria-labelledby="hero-model-heading">
-			<p class="panel-label">Operating model</p>
-			<h2 id="hero-model-heading">Capture, structure, automate, retain knowledge, scale capability.</h2>
+			<p class="panel-label">How systems create leverage</p>
+			<h2 id="hero-model-heading">Pain shows the problem. Mechanism explains the fix.</h2>
 			<ol>
-				<li>Capture</li>
-				<li>Structure</li>
-				<li>Automate</li>
-				<li>Retain knowledge</li>
+				<li>Capture knowledge</li>
+				<li>Reduce repeated work</li>
+				<li>Improve handoffs</li>
+				<li>Retain operating knowledge</li>
 				<li>Scale capability</li>
 			</ol>
 		</aside>
@@ -33,26 +44,31 @@
 	<section class="home-section problem-section" aria-labelledby="growth-heading">
 		<div class="section-heading">
 			<p class="section-kicker">Recognition</p>
-			<h2 id="growth-heading">Growth feels heavier instead of easier.</h2>
+			<h2 id="growth-heading">Growth Should Create Freedom. Not More Firefighting.</h2>
 			<p>Operational friction compounds when systems do not keep pace with the business.</p>
 		</div>
 
 		<ul class="card-grid problem-grid">
-			<li>Leads rely on memory.</li>
-			<li>Processes live in inboxes.</li>
-			<li>Operations become reactive.</li>
-			<li>Repeated work compounds.</li>
-			<li>Knowledge disappears.</li>
-			<li>Delivery becomes inconsistent.</li>
-			<li>Processes depend on specific people.</li>
+			<li>Leads rely on memory</li>
+			<li>Processes live in inboxes</li>
+			<li>The same work gets repeated</li>
+			<li>Knowledge disappears when staff change</li>
+			<li>Operations become inconsistent</li>
+			<li>Growth creates complexity instead of control</li>
+			<li>Owners become operational bottlenecks</li>
 		</ul>
+
+		<p class="pain-close">The problem often isn't headcount. It's systems.</p>
 	</section>
 
 	<section class="home-section model-section" aria-labelledby="model-heading">
 		<div class="section-heading">
 			<p class="section-kicker">Method</p>
 			<h2 id="model-heading">Northdown operational model</h2>
-			<p>Capture, structure, automate, retain knowledge, and scale capability.</p>
+			<p>
+				The mechanism is simple: understand the work, capture what matters, then improve the
+				system around it.
+			</p>
 		</div>
 
 		<ol class="step-list">
@@ -66,17 +82,19 @@
 
 	<section class="home-section systems-section" aria-labelledby="systems-heading">
 		<div class="section-heading">
-			<p class="section-kicker">Leverage</p>
-			<h2 id="systems-heading">Systems create operational leverage.</h2>
-			<p>Better systems often outperform bigger teams.</p>
+			<p class="section-kicker">Objections</p>
+			<h2 id="systems-heading">More tools do not automatically create better systems.</h2>
+			<p>
+				Operational drag starts early. Better systems compound when they are designed around real
+				work instead of novelty.
+			</p>
 		</div>
 
 		<ul class="card-grid systems-grid">
-			<li>Every workflow becomes an asset.</li>
-			<li>Every process becomes repeatable.</li>
-			<li>Every improvement compounds.</li>
-			<li>More people can help.</li>
-			<li>Missing systems compound problems.</li>
+			<li>More software doesn't automatically create better systems.</li>
+			<li>Operational drag starts early. Better systems compound.</li>
+			<li>Northdown doesn't start with AI. We start with operational problems.</li>
+			<li>Better systems should make businesses easier to run, not harder.</li>
 		</ul>
 	</section>
 
@@ -101,7 +119,7 @@
 	<section class="home-section trust-section" aria-labelledby="trust-heading">
 		<div class="section-heading">
 			<p class="section-kicker">Trust</p>
-			<h2 id="trust-heading">Built with operating discipline.</h2>
+			<h2 id="trust-heading">Trust is built through process, not claims.</h2>
 			<p>
 				Northdown is not an AI agency, AI consultancy, generic automation company, or prompt
 				engineering company.
@@ -109,11 +127,11 @@
 		</div>
 
 		<ul class="trust-list">
-			<li>Governance</li>
-			<li>Knowledge retention</li>
-			<li>Operational systems</li>
-			<li>Validation discipline</li>
-			<li>Institutional capability</li>
+			<li>Structured delivery approach</li>
+			<li>Governed implementation process</li>
+			<li>Operational validation methods</li>
+			<li>Knowledge retention principles</li>
+			<li>System-first operating model</li>
 		</ul>
 	</section>
 
@@ -121,12 +139,19 @@
 		<div>
 			<p class="section-kicker">Next step</p>
 			<h2 id="cta-heading">Build Operational Leverage.</h2>
-			<p>Start with discovery before implementation decisions are made.</p>
+			<p>
+				Start with the friction, bottlenecks, and repeated work before implementation decisions
+				are made.
+			</p>
 		</div>
 
 		<div class="button-row" aria-label="Conversion actions">
-			<a class="button button-primary" href="/contact">Book Discovery</a>
-			<a class="button button-secondary" href="/services">See Systems</a>
+			<a
+				class="button button-primary"
+				href="mailto:hello@northdowncomputers.com?subject=Operational%20Review%20Request&body=Hello%20Northdown%2C%0A%0AI%20would%20like%20to%20request%20an%20operational%20review.%0A%0ACurrent%20operational%20challenge%3A%0ABusiness%20%2F%20company%3A%0ABest%20contact%20details%3A"
+				>Request Operational Review</a
+			>
+			<a class="button button-secondary" href="tel:+442037730511">Call 020-3773 0511</a>
 		</div>
 	</section>
 </article>
@@ -160,8 +185,19 @@
 	.hero-lede {
 		max-width: 43rem;
 		color: #213044;
-		font-size: 1.16rem;
+		font-size: 1.22rem;
+		font-weight: 700;
 		line-height: 1.7;
+	}
+
+	.category-line,
+	.cta-note {
+		color: #3b4a5c;
+	}
+
+	.cta-note {
+		font-size: 0.96rem;
+		margin-top: 1rem;
 	}
 
 	.home-hero p:not(.page-label),
@@ -283,6 +319,21 @@
 		grid-template-columns: minmax(14rem, 19rem) minmax(0, 1fr);
 		gap: clamp(1.25rem, 3vw, 2rem);
 		padding: clamp(1.25rem, 3vw, 2rem);
+	}
+
+	.problem-section {
+		grid-template-rows: auto auto;
+	}
+
+	.pain-close {
+		border-left: 3px solid #18324a;
+		color: #111827;
+		font-size: clamp(1.12rem, 2vw, 1.45rem);
+		font-weight: 800;
+		grid-column: 2;
+		line-height: 1.35;
+		margin: 0;
+		padding-left: 1rem;
 	}
 
 	.section-heading h2 {
@@ -417,6 +468,10 @@
 		.home-hero,
 		.home-section {
 			grid-template-columns: 1fr;
+		}
+
+		.pain-close {
+			grid-column: 1;
 		}
 
 		.step-list {
