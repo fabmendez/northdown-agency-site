@@ -11,7 +11,7 @@
 				<a
 					class="button button-primary"
 					href="mailto:hello@northdowncomputers.com?subject=Operational%20Review%20Request&body=Hello%20Northdown%2C%0A%0AI%20would%20like%20to%20request%20an%20operational%20review.%0A%0ACurrent%20operational%20challenge%3A%0ABusiness%20%2F%20company%3A%0ABest%20contact%20details%3A%0ACurrent%20tools%20or%20systems%3A%0AWhat%20would%20make%20the%20business%20easier%20to%20run%3A"
-					>Email Review Request</a
+					>Request Operational Review</a
 				>
 				<a class="button button-secondary-light" href="tel:+442037730511">Call 020-3773 0511</a>
 			</div>
@@ -45,6 +45,24 @@
 		</div>
 	</section>
 
+	<section class="ror-compounds" aria-labelledby="compounds-heading">
+		<div class="compounds-heading">
+			<p class="section-kicker">Cost of doing nothing</p>
+			<h2 id="compounds-heading">Operational Drag Compounds</h2>
+		</div>
+
+		<div class="compounds-body">
+			<ul class="compounds-list">
+				<li>Repeated work compounds.</li>
+				<li>Knowledge gaps compound.</li>
+				<li>Missed follow-ups compound.</li>
+				<li>Manual work compounds.</li>
+				<li>Growth gets heavier.</li>
+			</ul>
+			<p class="compounds-close">Better systems create operational leverage.</p>
+		</div>
+	</section>
+
 	<section class="ror-section" aria-labelledby="what-include-heading">
 		<div class="section-heading">
 			<p class="section-kicker">Before you send</p>
@@ -57,7 +75,7 @@
 				start. Useful context includes:
 			</p>
 			<ul class="checklist">
-				<li>The current operational challenge — describe the friction or repeated problem.</li>
+				<li>The current operational challenge — describe what feels heavier to run than it should.</li>
 				<li>Your business or company name.</li>
 				<li>Best contact details for follow-up.</li>
 				<li>Current tools or systems involved, even if they are not working well.</li>
@@ -81,8 +99,8 @@
 		<div class="section-body">
 			<ol class="next-list">
 				<li>
-					<span class="next-label">Northdown reviews the context.</span>
-					We read what you have sent and assess whether there is a practical fit.
+					<span class="next-label">Northdown identifies friction, bottlenecks, and practical opportunities to improve how the business operates.</span>
+					We use the context you send to assess whether there is a practical fit.
 				</li>
 				<li>
 					<span class="next-label">If there is a fit, the next step is a short discovery conversation.</span>
@@ -130,7 +148,7 @@
 			<a
 				class="button button-primary-inverse"
 				href="mailto:hello@northdowncomputers.com?subject=Operational%20Review%20Request&body=Hello%20Northdown%2C%0A%0AI%20would%20like%20to%20request%20an%20operational%20review.%0A%0ACurrent%20operational%20challenge%3A%0ABusiness%20%2F%20company%3A%0ABest%20contact%20details%3A%0ACurrent%20tools%20or%20systems%3A%0AWhat%20would%20make%20the%20business%20easier%20to%20run%3A"
-				>Email Review Request</a
+				>Request Operational Review</a
 			>
 			<a class="button button-secondary" href="tel:+442037730511">Call 020-3773 0511</a>
 			<a class="button button-tertiary" href="/privacy">Review Privacy Notes</a>
@@ -146,6 +164,7 @@
 
 	.ror-hero,
 	.ror-section,
+	.ror-compounds,
 	.ror-action {
 		border: 1px solid #d8e0e7;
 		border-radius: 8px;
@@ -206,6 +225,57 @@
 
 	.ror-section--note {
 		background: #f9fbfc;
+	}
+
+	.ror-compounds {
+		background: #18324a;
+		display: grid;
+		grid-template-columns: minmax(14rem, 20rem) minmax(0, 1fr);
+		gap: clamp(1.25rem, 3vw, 2.5rem);
+		padding: clamp(1.5rem, 3vw, 2.5rem);
+	}
+
+	.compounds-heading .section-kicker {
+		color: rgba(255, 255, 255, 0.6);
+	}
+
+	.compounds-heading h2 {
+		color: #ffffff;
+		font-size: clamp(1.25rem, 2vw, 1.6rem);
+		line-height: 1.2;
+		margin-bottom: 0;
+	}
+
+	.compounds-body {
+		display: flex;
+		flex-direction: column;
+		gap: 1.25rem;
+	}
+
+	.compounds-list {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.compounds-list li {
+		border-left: 2px solid rgba(255, 255, 255, 0.25);
+		color: rgba(255, 255, 255, 0.85);
+		font-size: 1.05rem;
+		line-height: 1.5;
+		padding: 0.2rem 0 0.2rem 0.9rem;
+	}
+
+	.compounds-close {
+		border-left: 3px solid #5a9e7a;
+		color: #a8dfc0;
+		font-size: 1.05rem;
+		font-weight: 700;
+		margin: 0;
+		padding-left: 0.9rem;
 	}
 
 	.section-heading h2 {
@@ -279,18 +349,18 @@
 	}
 
 	.checklist li::before {
+		align-items: center;
 		background: #dff0e8;
 		border: 1px solid #b6d9c7;
 		border-radius: 3px;
 		color: #2a6646;
 		content: '✓';
 		display: inline-flex;
-		align-items: center;
-		justify-content: center;
 		flex: 0 0 1.4rem;
 		font-size: 0.7rem;
 		font-weight: 900;
 		height: 1.4rem;
+		justify-content: center;
 		margin-top: 0.1rem;
 	}
 
@@ -330,7 +400,8 @@
 
 	.ror-action {
 		align-items: center;
-		background: #18324a;
+		background: #1e3d56;
+		border-color: #1e3d56;
 		color: #ffffff;
 		display: flex;
 		gap: 2rem;
@@ -344,16 +415,19 @@
 		color: #ffffff;
 	}
 
+	.ror-action__copy .section-kicker {
+		color: rgba(255, 255, 255, 0.6);
+	}
+
 	.ror-action__copy h2 {
-		color: #ffffff;
 		font-size: clamp(1.25rem, 2vw, 1.6rem);
 		line-height: 1.2;
 		margin-bottom: 0.6rem;
 	}
 
 	.ror-action__copy p {
-		max-width: 46rem;
 		line-height: 1.65;
+		max-width: 46rem;
 		opacity: 0.88;
 	}
 
@@ -431,7 +505,8 @@
 	}
 
 	@media (max-width: 920px) {
-		.ror-section {
+		.ror-section,
+		.ror-compounds {
 			grid-template-columns: 1fr;
 		}
 
@@ -444,6 +519,7 @@
 	@media (max-width: 560px) {
 		.ror-hero,
 		.ror-section,
+		.ror-compounds,
 		.ror-action {
 			border-left: 0;
 			border-right: 0;

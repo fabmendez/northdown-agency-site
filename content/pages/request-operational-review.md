@@ -10,7 +10,7 @@ Operational Systems Engineering
 
 Tell Northdown where operations feel heavier than they should. We will use the context to identify friction, bottlenecks, and practical opportunities to improve operational leverage.
 
-Primary CTA: Email Review Request — mailto:hello@northdowncomputers.com
+Primary CTA: Request Operational Review — mailto:hello@northdowncomputers.com
 Secondary CTA: Call 020-3773 0511 — tel:+442037730511
 Support link: Review Privacy Notes — /privacy
 
@@ -27,11 +27,21 @@ An operational review is most useful when the business is becoming harder to run
 - Delivery becoming inconsistent as the business grows.
 - Growth creating complexity instead of control.
 
+## Operational Drag Compounds
+
+Repeated work compounds.
+Knowledge gaps compound.
+Missed follow-ups compound.
+Manual work compounds.
+Growth gets heavier.
+
+Better systems create operational leverage.
+
 ## What To Include In Your Request
 
 You do not need a finished specification. A short description of the problem is enough to start. Useful context includes:
 
-- The current operational challenge — describe the friction or repeated problem.
+- The current operational challenge — describe what feels heavier to run than it should.
 - Your business or company name.
 - Best contact details for follow-up.
 - Current tools or systems involved, even if they are not working well.
@@ -43,7 +53,7 @@ A fuller form or booking flow can be added later. For now, email gives the faste
 
 ## What Happens Next
 
-- Northdown reviews the context and assesses whether there is a practical fit.
+- Northdown identifies friction, bottlenecks, and practical opportunities to improve how the business operates. We use the context you send to assess whether there is a practical fit.
 - If there is a fit, the next step is a short discovery conversation. No pressure to buy a tool or commit to anything.
 - If Northdown is not the right fit, we will say so. Honest assessment is more useful than a vague follow-up.
 
@@ -62,7 +72,7 @@ Keep your initial request practical. Sensitive data is not required at this stag
 
 Send a short description of where operations feel heavier than they should. Northdown will use that context to assess whether an operational review is a fit.
 
-Primary CTA: Email Review Request — mailto:hello@northdowncomputers.com
+Primary CTA: Request Operational Review — mailto:hello@northdowncomputers.com
 Secondary CTA: Call 020-3773 0511 — tel:+442037730511
 Support: Review Privacy Notes — /privacy
 
