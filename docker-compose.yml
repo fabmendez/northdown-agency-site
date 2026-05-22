@@ -1,0 +1,13 @@
+services:
+  northdown-agency-site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: northdown-agency-site
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 3000
+    ports:
+      - "3080:3000"
+    restart: unless-stopped
