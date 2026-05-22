@@ -1,0 +1,87 @@
+Refine the Request Operational Review page presentation before commit.
+
+Current page is functionally correct, but visually too dense and grid-heavy.
+
+Do not change the route.
+Do not change the approved email.
+Do not change the approved phone number.
+Do not add backend form.
+Do not add dependencies.
+Do not deploy.
+Do not invent response times, guarantees, case studies, metrics, or booking systems.
+Do not modify unrelated pages unless needed for CTA link consistency.
+
+Read:
+- src/routes/request-operational-review/+page.svelte
+- content/pages/request-operational-review.md
+- src/routes/+page.svelte
+- src/routes/contact/+page.svelte
+- content/pages/home.md
+- content/pages/contact.md
+- project-brain/14-website/CONTACT_CONVERSION_BACKLOG.md
+
+Keep:
+- Route: /request-operational-review
+- Headline: Request An Operational Review
+- Email: hello@northdowncomputers.com
+- Phone: 020-3773 0511
+- tel:+442037730511
+- Privacy link: /privacy
+- No backend form yet
+- mailto remains the functional submission path
+
+Presentation improvements:
+1. Improve hero layout
+- Make the hero feel like a focused conversion page.
+- Make the primary CTA clearly strongest:
+  Email Review Request
+- Keep phone secondary.
+- Keep privacy tertiary/support.
+
+2. Reduce card density
+- The page currently has many small cards.
+- Keep cards where useful, but improve spacing and grouping.
+- Avoid making every small sentence a separate box.
+- Use short paragraphs and grouped lists where that reads better.
+
+3. Make “What to include in your request” easier to scan
+- This section should feel like a helpful checklist.
+- It should not look like a dense form pretending not to be a form.
+- Consider grouped checklist rows or a simple stacked list.
+
+4. Clarify no-form state
+- Add a short honest line:
+  “A fuller form or booking flow can be added later. For now, email gives the fastest low-friction path.”
+- Do not make this sound apologetic.
+
+5. Improve CTA block
+- CTA headline:
+  Start With The Operational Problem
+- Supporting copy:
+  Send a short description of where operations feel heavier than they should. Northdown will use that context to assess whether an operational review is a fit.
+- Buttons:
+  Email Review Request
+  Call 020-3773 0511
+  Review Privacy Notes
+
+6. Check wording
+- Avoid awkward phrases like:
+  “If the problem is not a fit”
+- Prefer:
+  “If Northdown is not the right fit, we will say so.”
+
+7. Update markdown source to match.
+
+Validation:
+Run:
+npm run build
+npm run check
+
+Report:
+- files changed
+- presentation refinements made
+- whether homepage/contact CTAs point to /request-operational-review
+- whether mailto remains available on request page
+- build result
+- check result
+- do not commit yet

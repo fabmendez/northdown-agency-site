@@ -1,0 +1,108 @@
+Apply Frank Kern refinement feedback to the Request Operational Review page.
+
+Do not change the route.
+Do not remove the page.
+Do not add backend form.
+Do not add dependencies.
+Do not deploy.
+Do not invent proof, metrics, guarantees, case studies, booking system, opening hours, or response-time promises.
+Do not modify unrelated pages unless needed for CTA consistency.
+
+Read:
+- src/routes/request-operational-review/+page.svelte
+- content/pages/request-operational-review.md
+- project-brain/14-website/CONTACT_CONVERSION_BACKLOG.md
+- project-brain/14-website/MARKETING_CTA_IMPROVEMENT_PLAN.md
+
+Approved Frank feedback:
+- “Request An Operational Review” works. Keep it.
+- The page now feels like an operational consultancy / systems engineering company, not an AI agency.
+- Buyer recognition is strong.
+- Keep “what should not be automated” because it signals judgment and trust.
+- Phone placement is good. Keep phone secondary/supporting.
+- Biggest missing piece: cost of doing nothing / cost of staying manual.
+- Add consequence layer:
+  Problem → operational consequence → review
+
+Specific copy changes:
+
+1. Replace weak/internal wording:
+Current idea:
+“Northdown reviews the context”
+
+Use buyer-facing wording:
+“Northdown identifies friction, bottlenecks, and practical opportunities to improve how the business operates.”
+
+Or:
+“Northdown identifies where systems could reduce operational drag.”
+
+2. CTA wording:
+Avoid:
+Email Review Request
+
+Use:
+Request Operational Review
+
+Alternative only if needed:
+Send Review Request
+
+Primary CTA should be:
+Request Operational Review
+
+It may still use the mailto link.
+
+3. Improve request prompt wording:
+Replace:
+“Describe the friction, bottleneck, or repeated problem.”
+
+With:
+“Describe what feels heavier to run than it should.”
+
+4. Add a cost-of-doing-nothing section.
+
+Suggested heading:
+Operational Drag Compounds
+
+Suggested copy:
+Repeated work compounds.
+Knowledge gaps compound.
+Missed follow-ups compound.
+Manual work compounds.
+Growth gets heavier.
+
+Closing line:
+Better systems create operational leverage.
+
+Keep tone:
+- practical
+- diagnostic
+- low pressure
+- commercially clear
+- operational
+- no hype
+
+5. Keep privacy/sensitive information warning:
+- Do not send passwords, credentials, private keys, or unnecessary sensitive data.
+- Keep examples practical and non-sensitive where possible.
+
+6. Update markdown source to match.
+
+7. Update CONTACT_CONVERSION_BACKLOG.md or MARKETING_CTA_IMPROVEMENT_PLAN.md only if needed to record:
+- Request Operational Review page exists
+- mailto remains current functional submission path
+- future backend form/booking remains later
+
+Validation:
+Run:
+npm run build
+npm run check
+
+Report:
+- files changed
+- summary of Kern refinements
+- whether cost-of-doing-nothing section was added
+- final primary CTA wording
+- build result
+- check result
+- assumptions
+- do not commit yet
