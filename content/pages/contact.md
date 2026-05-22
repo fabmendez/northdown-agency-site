@@ -10,6 +10,8 @@ Operational Systems Engineering
 
 If your business is repeating work, losing knowledge, or becoming harder to run as it grows, Northdown can help you identify where better systems would create leverage.
 
+Call 020-3773 0511 to start a discovery or operational review conversation.
+
 ## Good Reasons To Get In Touch
 
 - Repeated admin is slowing the team down.
@@ -38,6 +40,8 @@ If your business is repeating work, losing knowledge, or becoming harder to run 
 
 ### Book Discovery
 
-Contact form implementation is planned. For now, use the approved discovery contact path once configured.
+Call 020-3773 0511 to start a discovery or operational review conversation.
+
+Use the call to explain the workflow problem, current constraints, and what would make the business easier to run.
 
 Review Privacy Notes.

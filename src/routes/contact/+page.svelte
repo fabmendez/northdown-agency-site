@@ -6,6 +6,10 @@
 			If your business is repeating work, losing knowledge, or becoming harder to run as it
 			grows, Northdown can help you identify where better systems would create leverage.
 		</p>
+		<div class="button-row" aria-label="Contact actions">
+			<a class="button button-primary" href="tel:+442037730511">Call 020-3773 0511</a>
+			<a class="button button-secondary-light" href="/privacy">Review Privacy Notes</a>
+		</div>
 	</header>
 
 	<section class="contact-section" aria-labelledby="reasons-heading">
@@ -70,12 +74,16 @@
 			<p class="section-kicker">Contact action</p>
 			<h2 id="action-heading">Book Discovery</h2>
 			<p>
-				Contact form implementation is planned. For now, use the approved discovery contact path
-				once configured.
+				Call <a href="tel:+442037730511">020-3773 0511</a> to start a discovery or operational
+				review conversation. Use the call to explain the workflow problem, current constraints,
+				and what would make the business easier to run.
 			</p>
 		</div>
 
-		<a class="button button-secondary" href="/privacy">Review Privacy Notes</a>
+		<div class="button-row" aria-label="Discovery actions">
+			<a class="button button-primary-inverse" href="tel:+442037730511">Call 020-3773 0511</a>
+			<a class="button button-secondary" href="/privacy">Review Privacy Notes</a>
+		</div>
 	</section>
 </article>
 
@@ -136,6 +144,13 @@
 		letter-spacing: 0.08em;
 		margin: 0 0 0.55rem;
 		text-transform: uppercase;
+	}
+
+	.button-row {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.75rem;
+		margin-top: 1.5rem;
 	}
 
 	.card-grid,
@@ -209,6 +224,16 @@
 		max-width: 48rem;
 	}
 
+	.contact-action p a {
+		color: #ffffff;
+		font-weight: 800;
+	}
+
+	.contact-action .button-row {
+		flex: 0 0 auto;
+		margin-top: 0;
+	}
+
 	.button {
 		align-items: center;
 		border: 1px solid transparent;
@@ -220,6 +245,35 @@
 		min-height: 2.75rem;
 		padding: 0.72rem 1rem;
 		text-decoration: none;
+	}
+
+	.button-primary {
+		background: #18324a;
+		color: #ffffff;
+	}
+
+	.button-primary:hover {
+		background: #0f2437;
+	}
+
+	.button-primary-inverse {
+		background: #ffffff;
+		color: #18324a;
+	}
+
+	.button-primary-inverse:hover {
+		background: #eef4f7;
+	}
+
+	.button-secondary-light {
+		background: #ffffff;
+		border-color: #b9c7d3;
+		color: #18324a;
+	}
+
+	.button-secondary-light:hover {
+		background: #eef4f7;
+		border-color: #8fa4b6;
 	}
 
 	.button-secondary {

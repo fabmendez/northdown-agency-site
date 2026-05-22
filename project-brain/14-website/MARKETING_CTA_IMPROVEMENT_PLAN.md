@@ -25,10 +25,11 @@ CTA styling is mostly consistent, but the site does not yet use CTAs as a clear 
 
 - Standardise primary CTA language around `Book Discovery` when the visitor is ready to start.
 - Use `Request Operational Review` when the context is diagnostic or lower commitment.
+- Use the approved public discovery phone number where the visitor is ready to act: `020-3773 0511`.
 - Use secondary CTAs to route visitors to the next best page: `See Services`, `See Process`, or `Review Privacy Notes`.
 - Add short CTA support copy that explains what the action is for.
 - Keep CTA blocks visually intentional and consistent across pages.
-- Do not imply a working contact form until the backend/contact path is configured.
+- Do not imply a working contact form or backend submission path.
 
 ### Implementation timing
 
@@ -216,13 +217,16 @@ The visitor is close to taking action and needs to know what discovery is for, w
 ### Recommended CTA improvement
 
 - Primary CTA block headline: `Book Discovery`.
-- Placeholder action text must remain clear: `Contact method pending final configuration.`
+- Approved public discovery contact method: `020-3773 0511`.
+- Primary CTA can use: `Call 020-3773 0511`.
+- Keep `Book Discovery` as the action intent, with the phone number making the action concrete.
 - Add secondary link: `Review Privacy Notes`.
-- Once the contact path is approved, this page should be the first page updated.
+- Contact no longer needs `Contact method pending final configuration` placeholder language.
+- Do not add or imply a working contact form, CRM, email route, response-time promise, or automation.
 
 ### Implementation timing
 
-Implement now, but keep the action as a placeholder until contact path approval. This is the main conversion endpoint.
+Implement now using the approved phone number. This is the main conversion endpoint.
 
 ## Privacy
 
@@ -275,6 +279,7 @@ For each implementation slice:
 ## Assumptions
 
 - The current page content is valid first-pass public content, but it needs stronger buyer-facing flow.
-- The contact method remains pending final configuration.
+- The approved current public discovery contact method is phone: `020-3773 0511`.
+- The contact form backend remains unimplemented.
 - No proof assets, case studies, testimonials, pricing, or metrics are approved yet.
 - Future implementation should preserve the current visual restraint while improving hierarchy, section order, and CTA clarity.
