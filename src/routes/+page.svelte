@@ -18,7 +18,7 @@
 			<div class="button-row" aria-label="Primary actions">
 				<a
 					class="button button-primary"
-					href="mailto:hello@northdowncomputers.com?subject=Operational%20Review%20Request&body=Hello%20Northdown%2C%0A%0AI%20would%20like%20to%20request%20an%20operational%20review.%0A%0ACurrent%20operational%20challenge%3A%0ABusiness%20%2F%20company%3A%0ABest%20contact%20details%3A"
+					href="/request-operational-review"
 					>Request Operational Review</a
 				>
 				<a class="button button-secondary" href="tel:+442037730511">Call 020-3773 0511</a>
@@ -161,7 +161,7 @@
 		<div class="button-row" aria-label="Conversion actions">
 			<a
 				class="button button-primary"
-				href="mailto:hello@northdowncomputers.com?subject=Operational%20Review%20Request&body=Hello%20Northdown%2C%0A%0AI%20would%20like%20to%20request%20an%20operational%20review.%0A%0ACurrent%20operational%20challenge%3A%0ABusiness%20%2F%20company%3A%0ABest%20contact%20details%3A"
+				href="/request-operational-review"
 				>Request Operational Review</a
 			>
 			<a class="button button-secondary" href="tel:+442037730511">Call 020-3773 0511</a>

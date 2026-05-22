@@ -1,0 +1,174 @@
+Build the Request Operational Review feature.
+
+Context:
+The site currently has a primary CTA:
+Request Operational Review
+
+It currently uses a mailto link to:
+hello@northdowncomputers.com
+
+Goal:
+Create a proper Request Operational Review page/flow so the CTA has a dedicated destination.
+
+Do not remove the email CTA entirely.
+Do not remove the phone CTA.
+Do not add paid services.
+Do not invent booking systems.
+Do not invent opening hours.
+Do not invent response-time promises.
+Do not add analytics.
+Do not deploy unless explicitly approved.
+Do not change Dockerfile or docker-compose.yml unless required and approved.
+
+Read first:
+- README.md
+- AGENTS.md
+- project-brain/12-sales/
+- project-brain/13-brand/
+- project-brain/14-website/
+- project-brain/14-website/CONTACT_CONVERSION_BACKLOG.md
+- src/routes/contact/+page.svelte
+- content/pages/contact.md
+- src/routes/+page.svelte
+- package.json
+
+Approved contact details:
+- Email: hello@northdowncomputers.com
+- Phone: 020-3773 0511
+- Phone tel link: tel:+442037730511
+
+Task:
+Create a dedicated Request Operational Review route.
+
+Route:
+src/routes/request-operational-review/+page.svelte
+
+Purpose:
+Give visitors a clear, low-friction way to understand what an operational review is and start one.
+
+Do not implement a backend form yet.
+This first version should be a structured request page using mailto as the functional submission path.
+
+Page structure:
+
+Hero:
+Headline:
+Request An Operational Review
+
+Supporting:
+Tell Northdown where operations feel heavier than they should. We will use the context to identify friction, bottlenecks, and practical opportunities to improve operational leverage.
+
+Primary CTA:
+Email Review Request
+
+Use mailto:
+mailto:hello@northdowncomputers.com?subject=Operational%20Review%20Request&body=Hello%20Northdown%2C%0A%0AI%20would%20like%20to%20request%20an%20operational%20review.%0A%0ACurrent%20operational%20challenge%3A%0ABusiness%20%2F%20company%3A%0ABest%20contact%20details%3A%0ACurrent%20tools%20or%20systems%3A%0AWhat%20would%20make%20the%20business%20easier%20to%20run%3A
+
+Secondary CTA:
+Call 020-3773 0511
+Use tel:+442037730511
+
+Section 1:
+What the review is for
+
+Include:
+- repeated admin
+- missed follow-ups
+- operational bottlenecks
+- undocumented processes
+- knowledge trapped in people’s heads
+- workflows depending on inboxes, spreadsheets, or memory
+- delivery becoming inconsistent
+- growth creating complexity instead of control
+
+Section 2:
+What to include in your request
+
+Include:
+- current operational challenge
+- business or company name
+- best contact details
+- current tools or systems involved
+- where work gets repeated
+- what feels harder than it should
+- what should not be automated
+
+Section 3:
+What happens next
+
+Keep honest:
+- Northdown reviews the context
+- If there is a fit, the next step is a discovery conversation
+- If the problem is not a fit, Northdown will say so
+- No pressure to buy a tool or AI gimmick
+
+Do not promise response time.
+
+Section 4:
+Before you send sensitive information
+
+Include:
+- Do not send passwords, credentials, private keys, or unnecessary sensitive data
+- Keep examples practical and non-sensitive where possible
+- Access and data handling should be agreed before implementation work
+
+Section 5:
+CTA block
+
+Headline:
+Start With The Operational Problem
+
+Primary:
+Email Review Request
+
+Secondary:
+Call 020-3773 0511
+
+Support:
+Review Privacy Notes
+Link to:
+/privacy
+
+Update existing CTAs:
+- Homepage “Request Operational Review” should link to /request-operational-review
+- Contact page “Request Operational Review” should link to /request-operational-review
+- Keep direct email and phone options available on Contact page
+- Do not remove mailto from the new request page
+
+Update navigation only if appropriate:
+Do not add to top navigation unless already approved.
+Prefer linking from CTAs first.
+
+Update markdown/source content:
+Create:
+content/pages/request-operational-review.md
+
+Update if needed:
+content/pages/contact.md
+content/pages/home.md
+
+Update docs:
+project-brain/14-website/CONTACT_CONVERSION_BACKLOG.md
+- Mark dedicated request page as implemented
+- Note that mailto remains the functional submission path
+- Note that backend form/booking flow remains future work
+
+Validation:
+Run:
+npm run build
+npm run check
+
+Also search for old primary mailto CTA usage on homepage/contact:
+- Ensure primary homepage CTA now points to /request-operational-review
+- Ensure primary contact CTA now points to /request-operational-review
+- Ensure mailto remains available on the new request page and contact page
+
+Report:
+- files changed
+- route created
+- CTA updates made
+- mailto link used
+- build result
+- check result
+- assumptions
+- do not commit unless explicitly approved

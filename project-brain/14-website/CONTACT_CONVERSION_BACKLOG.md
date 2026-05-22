@@ -10,13 +10,23 @@ This is a planning document only. It does not approve a contact form, booking sy
 
 - The Contact page has an approved public phone number: `020-3773 0511`.
 - The Contact page has an approved public email address: `hello@northdowncomputers.com`.
-- `Request Operational Review` now has an immediate functional path through a `mailto:` link.
-- Phone is a live contact method.
+- `Request Operational Review` now links to a dedicated route: `/request-operational-review`.
+- The dedicated review page uses a `mailto:` link as the functional submission path.
+- The `mailto:` link pre-populates subject and body fields including: current operational challenge, business/company name, best contact details, current tools or systems, and what would make the business easier to run.
+- Phone is a live contact method and is available on both the contact page and the review page.
 - Phone is positioned as a secondary/supporting contact option.
 - No contact form exists yet.
 - No booking system exists yet.
-- The immediate conversion gap is partially resolved by approved public email.
-- The current Contact page copy is honest that a fuller contact or booking flow may be added later.
+- Backend form and booking flow remain future work.
+
+## What Was Implemented
+
+- Dedicated route created: `src/routes/request-operational-review/+page.svelte`
+- Content source created: `content/pages/request-operational-review.md`
+- Homepage primary CTA (hero and bottom CTA block) updated to link to `/request-operational-review`.
+- Contact page primary CTA (hero and action block) updated to link to `/request-operational-review`.
+- `mailto:` link remains on the dedicated review page as the functional submission path.
+- Direct email and phone remain available on the contact page.
 
 ## Desired Future State
 
@@ -29,7 +39,7 @@ This is a planning document only. It does not approve a contact form, booking sy
 
 ## Options To Decide
 
-- Keep the approved public email address with a `mailto:` link.
+- Keep the approved public email address with a `mailto:` link (current).
 - Add a simple contact form.
 - Add a booking link or booking system.
 - Add a Sipgate voice intake flow.
@@ -48,28 +58,25 @@ This is a planning document only. It does not approve a contact form, booking sy
 
 ## Interim Website Behavior
 
-- Keep `Request Operational Review` as the primary CTA.
-- Use the approved public email address as the current primary functional path: `hello@northdowncomputers.com`.
-- Make clear that a fuller contact or booking flow may be added later.
-- Use phone as the approved secondary live method: `020-3773 0511`.
-- Keep phone secondary/supporting, not the only intended conversion path.
+- `Request Operational Review` CTA links to `/request-operational-review`.
+- The dedicated review page uses `mailto:` as the functional submission path.
+- Direct email and phone remain available on the contact page.
+- No response-time promise on any page.
 - Do not imply a working form, booking system, CRM, automation, or response-time promise exists.
 
 ## Recommended Next Implementation Slice
 
-1. Decide whether email-only is sufficient for the next public version.
+1. Decide whether mailto-only is sufficient for the next public version.
 2. If not, approve form-to-email, booking, or Sipgate-supported intake as a separate mechanism.
 3. Update privacy wording before any new data collection or recording goes live.
 4. Implement the smallest approved improvement to the `Request Operational Review` path.
-5. Validate build, check, route behavior, and Contact page content.
+5. Validate build, check, route behavior, and content.
 
 ## Recommended Next Decision
 
-Approve whether the current `mailto:` path is enough for launch, or choose the next conversion mechanism:
+Approve whether the current `mailto:` path on the dedicated review page is enough for launch, or choose the next conversion mechanism:
 
 - simple form-to-email,
 - booking system,
 - Sipgate-supported intake,
 - or a staged combination.
-
-The lowest-complexity current path is the approved public email link. A simple form-to-email path is the most likely next improvement if Northdown wants lower-friction enquiry capture without adding a booking system or voice intake yet.

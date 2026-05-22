@@ -10,9 +10,12 @@ Operational Systems Engineering
 
 If your business is repeating work, losing knowledge, or becoming harder to run as it grows, Northdown can help you identify where better systems would create leverage.
 
-Request Operational Review by emailing hello@northdowncomputers.com.
+Primary CTA: Request Operational Review — /request-operational-review
+Secondary CTA: Call 020-3773 0511 — tel:+442037730511
+Support: Review Privacy Notes — /privacy
 
-For direct enquiries, call 020-3773 0511.
+For direct email enquiries: hello@northdowncomputers.com
+For direct calls: 020-3773 0511
 
 ## Good Reasons To Get In Touch
 
@@ -42,10 +45,10 @@ For direct enquiries, call 020-3773 0511.
 
 ### Request Operational Review
 
-You can request an operational review by emailing hello@northdowncomputers.com.
+The primary path for requesting an operational review is the dedicated review page at /request-operational-review.
 
-For direct enquiries, call 020-3773 0511.
+You can also reach Northdown directly by emailing hello@northdowncomputers.com or calling 020-3773 0511.
 
 A fuller contact or booking flow may be added later.
 
-Review Privacy Notes.
+Review Privacy Notes — /privacy
